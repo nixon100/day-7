@@ -96,6 +96,11 @@ xhr.onload = function(){
    return accumulator + currentvalue.population;
    }, 0);
    console.log(totalval);
+   
+   }
+
+
+xhr.send();
 
 
     5. let xhr= new XMLHttpRequest();
@@ -117,37 +122,6 @@ xhr.onload = function(){
 
 
    }
-
-
-    
-
-
-    
-
-
-    
-
-
-   
-
-
-}
-
-
-xhr.send();
-
-
-
-
-    
-
-
-    
-
-
-   
-
-
 }
 
 
